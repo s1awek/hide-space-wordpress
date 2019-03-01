@@ -137,6 +137,12 @@ gulp.task( 'scripts', function() {
 
         paths.dev + '/js/skip-link-focus-fix.js',
 
+        paths.dev + '/js/jquery.ba-throttle-debounce.min.js',
+        paths.dev + '/js/aos.js',
+        paths.dev + '/js/slick.min.js',
+        paths.dev + '/js/simple-lightbox.min.js',
+        paths.dev + '/js/bootstrap-select.min.js',
+        paths.dev + '/js/jquery.mb.YTPlayer.min.js',
         // Adding currently empty javascript file to add on for your own themes´ customizations
         // Please add any customizations to this .js file only!
         paths.dev + '/js/custom-javascript.js'
