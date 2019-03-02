@@ -16,11 +16,11 @@ get_header();
 ?>
 
 	<section id="bgndVideo" class="hero">
-        <div class="player" id="P1" data-property="{videoURL:'<?php echo get_field('video_url'); ?>',containment:'#bgndVideo', showControls:false, autoPlay:true, loop:true, mute:true, stopMovieOnBlur: true, addRaster:false, useOnMobile:false, mobileFallbackImage: 'https://res.cloudinary.com/s1aw3k/image/upload/v1551104668/bg_mobile_d8jjr0.jpg', optimizeDisplay:true, addFilters: {grayscale: 50,opacity: 30}}"></div>
+        <div class="player" id="P1" data-property="{videoURL:'<?php echo get_field('video_url'); ?>',containment:'#bgndVideo', showControls:false, autoPlay:true, loop:true, mute:true, stopMovieOnBlur: true, addRaster:false, useOnMobile:false, mobileFallbackImage: '<?php echo get_field('video_mobile_bg'); ?>', optimizeDisplay:true, addFilters: {grayscale: <?php echo get_field('video_gray_scale'); ?>,opacity: <?php echo get_field('video_opacity'); ?>}}"></div>
         <div class="container">
             <div data-aos="fade-in" data-aos-duration="2000" data-aos-once="true" class="hero__inner">
                 <h2 class="hero__header">
-                    Ukryj przestrzeń.<br>Dla Siebie.
+				<?php echo get_field('hero_text'); ?>
                 </h2>
             </div>
         </div>
@@ -29,18 +29,18 @@ get_header();
         <div class="container">
             <div class="row examples__row">
                 <div class="col-md-4 col-example col-example--first" data-aos="slide-right" data-aos-duration="1000" data-aos-once="true">
-                    <div class="col-example__inner-wrap">
-                        <a href="#" class="col-example__link">Pomieszczenia Podziemne</a>
+                    <div class="col-example__inner-wrap" style="background: url(<?php echo get_field('examples_img_1'); ?>) center center no-repeat;background-size: cover;">
+                        <a href="<?php echo get_field('examples_url_1'); ?>" class="col-example__link"><?php echo get_field('examples_text_1'); ?></a>
                     </div>
                 </div>
                 <div class="col-md-4 col-example col-example--second" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
-                    <div class="col-example__inner-wrap">
-                        <a href="#" class="col-example__link">Konstrukcje Pływające</a>
+                    <div class="col-example__inner-wrap" style="background: url(<?php echo get_field('examples_img_2'); ?>) center center no-repeat;background-size: cover;">
+                        <a href="<?php echo get_field('examples_url_2'); ?>" class="col-example__link"><?php echo get_field('examples_text_2'); ?></a>
                     </div>
                 </div>
                 <div class="col-md-4 col-example col-example--third" data-aos="slide-left" data-aos-duration="1000" data-aos-once="true">
-                    <div class="col-example__inner-wrap">
-                        <a href="#" class="col-example__link">Garaże Podziemne</a>
+                    <div class="col-example__inner-wrap" style="background: url(<?php echo get_field('examples_img_3'); ?>) center center no-repeat;background-size: cover;">
+                        <a href="<?php echo get_field('examples_url_3'); ?>" class="col-example__link"><?php echo get_field('examples_text_3'); ?></a>
                     </div>
                 </div>
             </div>

@@ -3,6 +3,25 @@
     "title": "Strona Główna",
     "fields": [
         {
+            "key": "field_5c7a8c0fb2971",
+            "label": "Hero tekst",
+            "name": "hero_text",
+            "type": "text",
+            "instructions": "Wprowadź tekst nagłówka pierwszej sekcji. Użyj <strong>&lt;br&gt;<\/strong> żeby przejść do nowej linii.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Ukryj przestrzeń.<br>Dla Siebie.",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5c7a5a615df0a",
             "label": "Logo slider",
             "name": "logo_slider",
@@ -67,7 +86,7 @@
             "key": "field_5c7a60726ad8e",
             "label": "Wideo w tle",
             "name": "",
-            "type": "tab",
+            "type": "accordion",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -76,7 +95,8 @@
                 "class": "",
                 "id": ""
             },
-            "placement": "top",
+            "open": 1,
+            "multi_expand": 0,
             "endpoint": 0
         },
         {
@@ -94,6 +114,320 @@
             },
             "default_value": "https:\/\/www.youtube.com\/watch?v=7NV3fpOooZw",
             "placeholder": ""
+        },
+        {
+            "key": "field_5c7a86d3d5bf6",
+            "label": "Obrazek zamiast filmu dla urządzeń mobilnych",
+            "name": "video_mobile_bg",
+            "type": "url",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/res.cloudinary.com\/s1aw3k\/image\/upload\/v1551104668\/bg_mobile_d8jjr0.jpg",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5c7a8808fb4db",
+            "label": "Stopień szarości",
+            "name": "video_gray_scale",
+            "type": "number",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 50,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "key": "field_5c7a8abbfb4dc",
+            "label": "Przeźroczystość",
+            "name": "video_opacity",
+            "type": "number",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 30,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "key": "field_5c7a8bcd97c4c",
+            "label": "Wideo w tle - koniec panelu",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 1
+        },
+        {
+            "key": "field_5c7a8f51af60a",
+            "label": "Przykładowe wykonanie",
+            "name": "",
+            "type": "accordion",
+            "instructions": "3 przykładowe wykonania",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 1,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c7a8f97af60b",
+            "label": "Pierwszy przykład",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c7a8fecaf60c",
+            "label": "Obrazek w tle",
+            "name": "examples_img_1",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 350,
+            "min_height": 250,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg,png,jpeg"
+        },
+        {
+            "key": "field_5c7a9061af60d",
+            "label": "Link odnośnika",
+            "name": "examples_url_1",
+            "type": "link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        },
+        {
+            "key": "field_5c7a90a0af60e",
+            "label": "Tekst odnośnika",
+            "name": "examples_text_1",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c7a9104cfde2",
+            "label": "Drugi przykład",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c7a9125cfde3",
+            "label": "Obrazek w tle",
+            "name": "examples_img_2",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 350,
+            "min_height": 250,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg,png,jpeg"
+        },
+        {
+            "key": "field_5c7a913fcfde4",
+            "label": "Link odnośnika",
+            "name": "examples_url_2",
+            "type": "link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        },
+        {
+            "key": "field_5c7a914bcfde5",
+            "label": "Tekst odnośnika",
+            "name": "examples_text_2",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c7a93863cb83",
+            "label": "Trzeci przykład",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c7a939e3cb84",
+            "label": "Obrazek w tle",
+            "name": "examples_img_3",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 350,
+            "min_height": 250,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "jpg,png,jpeg"
+        },
+        {
+            "key": "field_5c7a93ad3cb85",
+            "label": "Link odnośnika",
+            "name": "examples_url_3",
+            "type": "link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        },
+        {
+            "key": "field_5c7a93b53cb86",
+            "label": "Tekst odnośnika",
+            "name": "examples_text_3",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
@@ -113,5 +447,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1551524196
+    "modified": 1551537885
 }
