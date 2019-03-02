@@ -95,6 +95,11 @@ if (file_exists($env_config)) {
     require_once $env_config;
 }
 
+/**
+ * Set up WP_MEMORY_LIMIT with conjunction with .env file
+ */
+Config::define('WP_MEMORY_LIMIT', env('WP_MEMORY_LIMIT'));
+
 Config::apply();
 
 /**
@@ -103,3 +108,5 @@ Config::apply();
 if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+

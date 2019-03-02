@@ -35,6 +35,8 @@ foreach ( $understrap_includes as $file ) {
 	require_once $filepath;
 }
 
+//load_theme_textdomain( 'understrap', templatepath.'/languages' );
+
 function hp_add_google_fonts() {
 	wp_enqueue_style( 'hp-google-fonts', 'https://fonts.googleapis.com/css?family=Domine:400,700|Source+Sans+Pro:400,600,700|Forum&amp;subset=latin-ext', false ); 
 	}
