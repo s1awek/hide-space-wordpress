@@ -13,11 +13,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header();
-
 ?>
 
 	<section id="bgndVideo" class="hero">
-        <div class="player" id="P1" data-property="{videoURL:'7NV3fpOooZw',containment:'#bgndVideo', showControls:false, autoPlay:true, loop:true, mute:true, stopMovieOnBlur: true, addRaster:false, useOnMobile:false, mobileFallbackImage: 'https://res.cloudinary.com/s1aw3k/image/upload/v1551104668/bg_mobile_d8jjr0.jpg', optimizeDisplay:true, addFilters: {grayscale: 50,opacity: 30}}"></div>
+        <div class="player" id="P1" data-property="{videoURL:'<?php echo get_field('video_url'); ?>',containment:'#bgndVideo', showControls:false, autoPlay:true, loop:true, mute:true, stopMovieOnBlur: true, addRaster:false, useOnMobile:false, mobileFallbackImage: 'https://res.cloudinary.com/s1aw3k/image/upload/v1551104668/bg_mobile_d8jjr0.jpg', optimizeDisplay:true, addFilters: {grayscale: 50,opacity: 30}}"></div>
         <div class="container">
             <div data-aos="fade-in" data-aos-duration="2000" data-aos-once="true" class="hero__inner">
                 <h2 class="hero__header">
