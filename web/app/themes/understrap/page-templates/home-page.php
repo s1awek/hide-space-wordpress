@@ -207,38 +207,26 @@ get_header();
                 </div>
             </div>
         </div>
-    </section>
+	</section>
+	<?php if( have_rows('logo_slider') ): ?>
     <section class="logos">
         <div class="container">
             <div class="row logos__row">
+			<?php while( have_rows('logo_slider') ): the_row(); 
+				// vars
+				$image = get_sub_field('logo_slider_img');
+				$link = get_sub_field('logo_slider_link');
+				?>
                 <div class="logos-item">
-                    <a href="#" class="logos-item__link">
-                        <img src="img/logo_envanto.png" alt="Logo" class="logos-item__img">
+                    <a href="<?php echo $link; ?>" class="logos-item__link">
+                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="logos-item__img">
                     </a>
-                </div>
-                <div class="logos-item">
-                    <a href="#" class="logos-item__link">
-                        <img src="img/logo_joomla.png" alt="Logo" class="logos-item__img">
-                    </a>
-                </div>
-                <div class="logos-item">
-                    <a href="#" class="logos-item__link">
-                        <img src="img/logo_shopify.png" alt="Logo" class="logos-item__img">
-                    </a>
-                </div>
-                <div class="logos-item">
-                    <a href="#" class="logos-item__link">
-                        <img src="img/logo_woocommerce.png" alt="Logo" class="logos-item__img">
-                    </a>
-                </div>
-                <div class="logos-item">
-                    <a href="#" class="logos-item__link">
-                        <img src="img/logo_wp.png" alt="Logo" class="logos-item__img">
-                    </a>
-                </div>
+				</div>
+			<?php endwhile; ?>
             </div>
         </div>
-    </section>
+	</section>
+	<?php endif; ?>
 
 <?php
 

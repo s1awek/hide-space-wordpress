@@ -3,50 +3,73 @@
     "title": "Strona Główna",
     "fields": [
         {
-            "key": "field_5c7956d7d111f",
-            "label": "TEST",
-            "name": "test",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
+            "key": "field_5c7a5a615df0a",
+            "label": "Logo slider",
+            "name": "logo_slider",
+            "type": "repeater",
+            "instructions": "Dodaj kolejne elementy slidera logo na stronie głównej",
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_5c7957b41e1a4",
-            "label": "test2",
-            "name": "test2",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5c7a5a945df0b",
+                    "label": "Obrazek tła",
+                    "name": "logo_slider_img",
+                    "type": "image",
+                    "instructions": "Wybierz obrazek tła",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "jpg,png,jpeg"
+                },
+                {
+                    "key": "field_5c7a5ae55df0c",
+                    "label": "Link",
+                    "name": "logo_slider_link",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
         }
     ],
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "post_template",
                 "operator": "==",
-                "value": "page"
+                "value": "page-templates\/home-page.php"
             }
         ]
     ],
@@ -58,5 +81,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1551456186
+    "modified": 1551522899
 }
