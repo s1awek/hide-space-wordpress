@@ -39,20 +39,19 @@ if ( ! defined( 'ABSPATH' ) ) {
                 endif;
                 ?>
                 </div>
-                <ul class="footer-menu col-md-3">
-                    <li class="footer-menu__item">
-                        <a href="#" class="footer-menu__link">Polityka Prywatności</a>
-                    </li>
-                    <li class="footer-menu__item">
-                        <a href="#" class="footer-menu__link">Współpracuj z nami</a>
-                    </li>
-                    <li class="footer-menu__item">
-                        <a href="#" class="footer-menu__link">Pracuj dla nas</a>
-                    </li>
-                    <li class="footer-menu__item">
-                        <a href="#" class="footer-menu__link">O nas</a>
-                    </li>
-                </ul>
+                <?php
+                    wp_nav_menu(
+                        array(
+                        'theme_location'  => 'footer_menu',
+                        'container'       => false,
+                        'menu_class'      => 'footer-menu col-md-3',
+                        'fallback_cb'     => '',
+                        'menu_id'         => 'footer_menu',
+                        'depth'           => 1,
+                        'walker'          => '',
+                        )
+                    );
+                ?>
                 <div class="col-md-4 col-newsletter">
                     <h4 class="header-newsletter"><?php the_field('newsletter_title', 'option'); ?></h4>
                     <p class="newsletter-text"><?php the_field('footer_newsletter_text', 'option'); ?></p>

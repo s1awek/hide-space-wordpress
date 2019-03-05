@@ -23,15 +23,39 @@ $container = get_theme_mod( 'understrap_container_type' );
 </head>
 
 <body <?php body_class(); ?>>
+<section data-aos="fade-in" data-aos-duration="2000" data-aos-once="true" class="top-wrap fixed-top">
+	<section class="info-bar">
+		<div class="container">
+			<div class="row row-info-bar">
+				<div class="col-auto col-phone-number col-top-info">
+					<i class="fas fa-mobile-alt"></i><span class="phone-number">Zadzwoń: +48 555 555 555</span>
+				</div>
+				<div class="col-auto col-email-address col-top-info">
+					<i class="fas fa-envelope"></i><span class="email-address">Email: <a href="mailto:#" class="info-bar__link">hello@hide-space.com</a></span>
+				</div>
+				<div class="col-auto col-language-switcher">
+					<select class="selectpicker" aria-label="Choose language" data-width="fit" data-flag="true">
+						<option aria-label="Polish" data-content="<span class='lang-pl'>PL</span>">PL</option>
+						<option aria-label="English" data-content="<span class='lang-en'>EN</span>">EN</option>
+					</select>
 
+				</div>
+				<div class="col-auto col-top-bar-social col-top-info">
+					<a href="#" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" aria-label="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+					<a href="#" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
-	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
+	<div class="navbar-top" id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
-		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+		<nav class="navbar navbar-expand-xl navbar-dark">
 
 		<?php if ( 'container' == $container ) : ?>
 			<div class="container">
@@ -59,13 +83,22 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
+				<?php 
+				
+				$search_form = '<form class="form-inline">
+				<input class="form-control" type="search" placeholder="Szukaj" aria-label="Search">
+				<button class="btn btn-outline-success" aria-label="Search" type="submit"><i class="fas fa-search"></i></button>
+				</form>';
+				
+				?>
+
 				<!-- The WordPress Menu goes here -->
 				<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
 						'container_class' => 'collapse navbar-collapse',
 						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
+						'menu_class'      => 'navbar-nav',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
@@ -79,3 +112,4 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</nav><!-- .site-navigation -->
 
 	</div><!-- #wrapper-navbar end -->
+	</section>

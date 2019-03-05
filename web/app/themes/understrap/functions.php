@@ -65,3 +65,29 @@ if( function_exists('acf_add_options_page') ) {
 	));
 		
 }
+
+//Custom element (WP search form) in primary menu
+function add_search_form($items, $args) {
+	if( $args->theme_location == 'primary' ){
+	$items .= '<li class="nav-item nav-search-form">'
+			. '<form role="search" method="get" class="form-inline" action="'.home_url( '/' ).'">'
+			. '<label class="search-form-label">'
+			. '<span class="screen-reader-text">' . _x( 'Search for:', 'label' ) . '</span>'
+			. '<input type="search" class="form-control" placeholder="' . esc_attr_x( 'Search …', 'placeholder' ) . '" value="' . get_search_query() . '" name="s" title="' . esc_attr_x( 'Search for:', 'label' ) . '" />'
+			. '</label>'
+			. '<button type="submit" class="btn btn-outline-success" value="'. esc_attr_x('Search', 'submit button') .'" ><i class="fas fa-search"></i></button>'
+			. '</form>'
+			. '</li>';
+	}
+    return $items;
+}
+add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);
+
+//Custom class to footer menu
+function atg_menu_classes($classes, $item, $args) {
+	if($args->theme_location == 'footer_menu') {
+	  $classes[] = 'footer-menu__item';
+	}
+	return $classes;
+  }
+  add_filter('nav_menu_css_class', 'atg_menu_classes', 10, 4);

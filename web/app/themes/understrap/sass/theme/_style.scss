@@ -303,10 +303,12 @@ input, textarea {
             background-color: $color-primary;
             border-radius: $radius;
         }
+        .container {
+            height: 100%;
+        }
     }
     .navbar-nav {
         margin-left: auto;
-        margin-right: 2rem;
     }
     .nav-item {
         margin-right: 1rem;
@@ -361,6 +363,18 @@ input, textarea {
         &.dropdown {
             .dropdown-item {
                 color: $color-primary;
+            }
+        }
+        &.nav-search-form {
+            margin-right: 0;
+            margin-left: 2rem;
+            @media screen and (max-width: 1199px) {
+                width: 100%;
+                margin-left: 0;
+                margin-top: 2rem;
+                .search-form-label {
+                    width: 100%;
+                }
             }
         }
     }
@@ -766,7 +780,7 @@ input, textarea {
         &__item {
             margin-bottom: 1rem;
         }
-        &__link {
+        a {
             font-weight: bold;
             color: $color-primary;
             &:hover {

@@ -47,7 +47,7 @@ get_header();
         </div>
     </section>
     <?php if( have_rows('strong_points') ): ?>
-    <section class="strong-points">
+    <section class="strong-points" id="content">
         <div class="container">
             <div class="row strong-points__row-title">
                 <div class="col-12 strong-points__col-header">
