@@ -1,0 +1,158 @@
+{
+    "key": "group_5c7cfff1a0307",
+    "title": "Stopka",
+    "fields": [
+        {
+            "key": "field_5c7d0014dcb02",
+            "label": "Adres email",
+            "name": "footer_email",
+            "type": "email",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "hello@hide-space.com",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5c7d04033cb01",
+            "label": "Numer telefonu",
+            "name": "footer_phone",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "(+48) 555-555-555",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c7d043a3cb02",
+            "label": "Adres",
+            "name": "footer_address",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Hide Space, Orzesze 500-50, ul. Błotna 48\/50",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c7e399c05697",
+            "label": "Newsletter, tytuł",
+            "name": "newsletter_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Newsletter",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c7e39e405698",
+            "label": "Tekst zachęcający do zapisania się do newslettera",
+            "name": "footer_newsletter_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Jeśli chcesz być na bieżąco z nowościami i co jakiś czas otrzymywać informację o tym co się u nas dzieje, zapisz się do naszego newslettera. Dbamy o Twoją prywatność i nigdy nie wysyłamy spamu. Możesz się w każdej chwili wypisać jednym kliknięciem.",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c7e3ae0183ca",
+            "label": "Tekst w stopce",
+            "name": "footer_text",
+            "type": "repeater",
+            "instructions": "Dodaj kolejny paragraf",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5c7e3afe183cb",
+                    "label": "Paragraf",
+                    "name": "footer_text_paragraph",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, commodi nostrum soluta asperiores numquam ducimus itaque neque? Similique, vero! Magnam, quo exercitationem modi sit culpa nulla? Debitis voluptates sapiente culpa?",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-stopka"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1551776723
+}

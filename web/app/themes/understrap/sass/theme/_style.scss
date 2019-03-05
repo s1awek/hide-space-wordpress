@@ -571,7 +571,6 @@ input, textarea {
         margin-bottom: 3rem;
     }
     &__row {
-        margin-bottom: 3rem;
         @media screen and (max-width: 991px) {
             margin-bottom: 0;
             padding-left: 15px;
@@ -586,7 +585,9 @@ input, textarea {
             padding-bottom: 15px;
         }
     }
-
+    &__col-item {
+        margin-bottom: 4rem;
+    }
 }
 
 .projects {
@@ -626,26 +627,6 @@ input, textarea {
     .project-item {
         height: 250px;
         box-shadow: $shadow-contour;
-        &--p1 {
-            background: url(../img/img_project1.jpg) center center no-repeat;
-            background-size: cover;
-        }
-        &--p2 {
-            background: url(../img/img_project2.jpg) center center no-repeat;
-            background-size: cover;
-        }
-        &--p3 {
-            background: url(../img/img_project3.jpg) center center no-repeat;
-            background-size: cover;
-        }
-        &--p4 {
-            background: url(../img/img_project4.jpg) center center no-repeat;
-            background-size: cover;
-        }
-        &--p5 {
-            background: url(../img/img_project5.jpg) center center no-repeat;
-            background-size: cover;
-        }
         &__inner {
             height: 100%;
             display: flex;
