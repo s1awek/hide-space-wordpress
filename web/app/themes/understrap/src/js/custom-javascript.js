@@ -3,7 +3,7 @@
     $('#P1').YTPlayer();
     $(window).on('scroll load', $.debounce(200, false, function (e) {
       var height = $(window).scrollTop();
-      if (height > 0) {
+      if (height > 0 && !$('.not-homepage').length) {
         $('.top-wrap').addClass('scroll');
       } else {
         $('.top-wrap').removeClass('scroll');

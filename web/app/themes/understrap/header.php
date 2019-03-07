@@ -21,17 +21,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 </head>
-
 <body <?php body_class(); ?>>
-<section data-aos="fade-in" data-aos-duration="2000" data-aos-once="true" class="top-wrap fixed-top">
+<section data-aos="fade-in" data-aos-duration="2000" data-aos-once="true" class="top-wrap fixed-top <?php echo(!is_front_page()) ? 'not-homepage' : ''; ?>">
 	<section class="info-bar">
 		<div class="container">
 			<div class="row row-info-bar">
 				<div class="col-auto col-phone-number col-top-info">
-					<i class="fas fa-mobile-alt"></i><span class="phone-number">Zadzwoń: +48 555 555 555</span>
+					<i class="fas fa-mobile-alt"></i><span class="phone-number"><?php esc_html_e('Call is'); ?>: <?php the_field('header_phone','option'); ?></span>
 				</div>
 				<div class="col-auto col-email-address col-top-info">
-					<i class="fas fa-envelope"></i><span class="email-address">Email: <a href="mailto:#" class="info-bar__link">hello@hide-space.com</a></span>
+					<i class="fas fa-envelope"></i><span class="email-address"><?php esc_html_e('Email'); ?>: <a href="mailto:#" class="info-bar__link"><?php the_field('header_email','option'); ?></a></span>
 				</div>
 				<div class="col-auto col-language-switcher">
 					<select class="selectpicker" aria-label="Choose language" data-width="fit" data-flag="true">
@@ -41,9 +40,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				</div>
 				<div class="col-auto col-top-bar-social col-top-info">
-					<a href="#" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
-					<a href="#" aria-label="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
-					<a href="#" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
+					<a href="<?php the_field('header_facebook','option'); ?>" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
+					<a href="<?php the_field('header_twitter','option'); ?>" aria-label="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+					<a href="<?php the_field('header_instagram','option'); ?>" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
 				</div>
 			</div>
 		</div>

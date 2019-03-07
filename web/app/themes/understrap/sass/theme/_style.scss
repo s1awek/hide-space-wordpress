@@ -194,7 +194,7 @@ input, textarea {
             color: #fff;
         }
     }
-    &.scroll {
+    &.scroll, &.not-homepage {
         .info-bar {
             height: 35px;
             background-color: $color-primary;
@@ -308,7 +308,7 @@ input, textarea {
         }
     }
     .navbar-nav {
-        margin-left: auto;
+        width: 100%;
     }
     .nav-item {
         margin-right: 1rem;
@@ -367,7 +367,7 @@ input, textarea {
         }
         &.nav-search-form {
             margin-right: 0;
-            margin-left: 2rem;
+            margin-left: auto;
             @media screen and (max-width: 1199px) {
                 width: 100%;
                 margin-left: 0;
@@ -406,6 +406,7 @@ input, textarea {
         max-width: 170px;
         height: 100%;
         align-items: center;
+        margin-right: 2rem;
         .logo-img {
             max-width: 100%;
             height: auto;
