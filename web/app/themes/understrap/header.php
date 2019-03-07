@@ -22,7 +22,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<section data-aos="fade-in" data-aos-duration="2000" data-aos-once="true" class="top-wrap fixed-top <?php echo(!is_front_page()) ? 'not-homepage' : ''; ?>">
+<section <?php echo(is_front_page()) ? 'data-aos="fade-in" data-aos-duration="2000" data-aos-once="true"' : ''?> class="top-wrap fixed-top <?php echo(!is_front_page()) ? 'not-homepage' : ''; ?>">
 	<section class="info-bar">
 		<div class="container">
 			<div class="row row-info-bar">

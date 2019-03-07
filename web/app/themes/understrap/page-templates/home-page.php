@@ -58,11 +58,12 @@ get_header();
                 <?php while ( have_rows('strong_points') ) : the_row(); 
                 $strong_points_header  = get_sub_field('strong_points_item_header');
                 $strong_points_content = get_sub_field('strong_points_item_description');
+                $strong_points_icon    = get_sub_field('strong_points_item_icon');
                 ?>
                 <div class="col-lg-4 strong-points__col-item">
                     <div class="strong-points-item">
                         <div class="strong-points-item__ico-wrap" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
-                            <i class="fas fa-shuttle-van"></i>
+                            <i class="<?php echo $strong_points_icon; ?>"></i>
                         </div>
                         <div class="strong-points-item__content-wrap">
                             <h4 class="strong-points-item__header"><?php echo $strong_points_header; ?></h4>

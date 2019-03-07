@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<footer class="footer"  data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-anchor-placement="top-bottom">
+<footer class="footer"  <?php echo(is_front_page()) ? 'data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-anchor-placement="top-bottom"' : ''?>>
         <div class="container">
             <div class="row row-contact">
                 <div class="col-auto col-footer-email row-contact__item">

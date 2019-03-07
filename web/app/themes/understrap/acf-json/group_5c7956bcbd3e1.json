@@ -538,6 +538,25 @@
                     "prepend": "",
                     "append": "",
                     "maxlength": ""
+                },
+                {
+                    "key": "field_5c813192043e4",
+                    "label": "Ikona według Font Awesome 5",
+                    "name": "strong_points_item_icon",
+                    "type": "text",
+                    "instructions": "Wstaw klasę ikony, na przykład <i>fas fa-shuttle-van<\/i>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "far fa-check-circle",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
                 }
             ]
         },
@@ -818,5 +837,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1551693555
+    "modified": 1551970953
 }

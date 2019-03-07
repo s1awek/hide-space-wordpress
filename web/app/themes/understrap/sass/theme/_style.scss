@@ -28,6 +28,9 @@ body {
     // * {
     //     text-shadow: 1px 1px 2px rgba(0,0,0,0.5); 
     // }
+    &:not(.home) {
+        padding-top: 120px;
+    }
 }
 
 h1,
@@ -862,4 +865,15 @@ input, textarea {
     .creator-text {
         margin-bottom: 0;
     }
+}
+
+.search {
+    article {
+        margin-bottom: 4rem;
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
 }
