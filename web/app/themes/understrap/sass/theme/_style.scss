@@ -1,33 +1,9 @@
-$color-primary: #42d7f4; // Main Primary color */
-$color-secondary: #8ff442; // Main Secondary color (1) */
-
-$color-grey-1: #eee;
-$color-grey-2: #ccc;
-$color-grey-3: #aaa;
-$color-grey-4: #888;
-$color-grey-5: #666;
-$color-grey-6: #444;
-$color-grey-7: #222;
-
-//Transition
-$transition: all 0.25s ease-in-out;
-
-//Radius
-$radius: 4px;
-
-//Box Shadow
-$shadow-contour:  5px 5px 5px 0px rgba(0,0,0,0.25);
-$shadow-inner: inset 0px 0px 2px 3px rgba(0, 0, 0, 0.2);
-
 body {
     font-family: 'Sans Pro', sans-serif;
     color: $color-grey-5;
     font-size: 16px;
     background-color: #fff;
     overflow-x: hidden;
-    // * {
-    //     text-shadow: 1px 1px 2px rgba(0,0,0,0.5); 
-    // }
     &:not(.home) {
         padding-top: 120px;
     }
@@ -437,7 +413,8 @@ input, textarea {
         font-size: 4rem;
         line-height: 1.2em;
         margin-bottom: 3rem;
-        color: #fff;
+        color: #fff; 
+        text-shadow: $text-shadow;
     }
     &__inner {
         max-width: 500px;
@@ -570,6 +547,7 @@ input, textarea {
         &__header {
             position: relative;
             margin-bottom: 3rem;
+            text-shadow: $text-shadow--primary;
             &:after {
                 content: '';
                 width: 3rem;
@@ -702,11 +680,13 @@ input, textarea {
                 font-size: 2rem;
                 margin-bottom: 2.5rem;
                 font-weight: bold;
+                text-shadow: $text-shadow;
             }
             &__text {
                 color: #fff;
                 line-height: 1.7rem;
                 font-weight: bold;
+                text-shadow: $text-shadow;
             }
         }
         .col-form {
@@ -814,6 +794,9 @@ input, textarea {
                 font-weight: bold;
             }
         }
+        .header-newsletter {
+            text-shadow: $text-shadow--primary;
+        }
     }
     @media screen and (max-width: 767px) {
     .row-contact {
@@ -876,4 +859,10 @@ input, textarea {
 .pagination {
     display: flex;
     justify-content: center;
+}
+
+.home {
+    .header-basic {
+        text-shadow: $text-shadow--primary;
+    }
 }
