@@ -26,7 +26,7 @@ set :deploy_to, -> { "/home/s1awek/domains/hide-space.com/public_html/capistrano
 set :tmp_dir, "/home/s1awek/domains/hide-space.com/public_html/temp_dir"
 
 # Use :debug for more verbose output when troubleshooting, Default is :info
-set :log_level, :info
+set :log_level, :debug
 
 # Branch options
 # Prompts for the branch name (defaults to current branch)
@@ -38,8 +38,10 @@ set :branch, :master
 
 # Folbert addition. Disable forward agent for, what appears to be, increased security
 set :ssh_options, {
-  :forward_agent => false,
-  :port          => "59184"
+  forward_agent: true,
+  user: fetch(:user),
+  keys: %w(~/.ssh/id_rsa),
+  verbose: :debug
 }
 
 

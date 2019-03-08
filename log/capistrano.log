@@ -1,0 +1,325 @@
+# Logfile created on 2019-03-08 12:57:48 +0100 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 12:57:48 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [ec16d209] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [1e088e2f] Finished in 5.967 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [820862ac] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [f86b686d] Finished in 0.188 seconds with exit status 0 (successful).
+  INFO [a15ec391] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 13:00:03 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [3052edbf] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [b74e76b8] Finished in 4.863 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [6c967f17] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [4de457d5] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [efe3342b] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 13:27:20 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [66bd5ed4] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [0de93bca] Finished in 4.681 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [dc731cc6] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [540e26b8] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO [e6477bd6] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 13:31:23 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [39f9146a] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [7c0a5ddd] Finished in 4.307 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [e1b35812] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [552a7eeb] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO [a42eb9b8] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 13:35:25 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [e2dd8891] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [e18e75b5] Finished in 4.081 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [941adb92] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [00817976] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO [7102b69b] Running /usr/bin/env git ls-remote https://github.com/s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 13:36:07 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [1cb3753c] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [19f7a4e9] Finished in 4.508 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [51c43733] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [dd189c70] Finished in 0.198 seconds with exit status 0 (successful).
+  INFO [2897b068] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 13:37:19 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [a68e0c78] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [44e28b98] Finished in 3.809 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [bc4e3a0e] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [fa19cd81] Finished in 0.188 seconds with exit status 0 (successful).
+  INFO [d5b363f1] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 13:38:26 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [fc4f9b13] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [2a90ae97] Finished in 3.989 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [a53a477a] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [26b3a3e6] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO [fe317410] Running /usr/bin/env git ls-remote https://github.com/s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 13:42:28 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [0aa0337c] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [4234b913] Finished in 5.958 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [d8f8ae97] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [7587ed96] Finished in 0.184 seconds with exit status 0 (successful).
+  INFO [6c3b0543] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 13:49:37 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [1d54f47c] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [88c9ef94] Finished in 3.381 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [2c25a741] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [c89c483d] Finished in 0.185 seconds with exit status 0 (successful).
+  INFO [f7ebec0e] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 13:52:17 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [89e43446] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [c2017d76] Finished in 3.816 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [c2a309e2] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [d7d060d0] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [2ad52177] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 14:40:09 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [61d6fcd4] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [47ffc1ee] Finished in 63.943 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [faf9e29a] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [db34db45] Finished in 0.185 seconds with exit status 0 (successful).
+  INFO [885c893a] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 14:42:41 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [70728f20] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [c826570d] Finished in 3.846 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [7fe6da73] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [756c3e0f] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [688fa433] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 14:43:38 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [ed97ae44] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [f8a2a42c] Finished in 3.676 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [6229da4c] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [d3f12972] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [eede00e7] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 14:44:39 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [5b0b7e61] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [4ec1afb8] Finished in 3.075 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [57e9c9ba] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [eea05331] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [f0e0763e] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 14:45:55 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [a70d6686] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [a7775805] Finished in 3.446 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [2d68bbbb] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [99171775] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [7fdf6495] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:08:50 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [47234e04] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [240dc01c] Finished in 4.204 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [c71f5f2f] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [3e34e8d4] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO [6a6baf3a] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:10:45 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [9425d596] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [b67618bb] Finished in 3.858 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [270c69d3] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [5fbecd73] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [195e007c] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:14:10 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [f9783f19] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [5eba7e38] Finished in 3.800 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [d61fe4bd] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [901dc19a] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO [6d5ac929] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:16:16 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [49929180] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [8df9f132] Finished in 3.434 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [6183f6ad] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [32d8b52c] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [a2641dda] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:19:37 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [5beb551e] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [38fd4b89] Finished in 8.314 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [318bb117] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [849fdc0c] Finished in 0.185 seconds with exit status 0 (successful).
+  INFO [72d863c9] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:30:33 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [abf5d738] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [d0c643ee] Finished in 3.738 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [03271ead] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [f2d96380] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [e77cacd6] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:34:18 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [72dd8fc6] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [d1e05c42] Finished in 23.796 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [cfb93469] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [b4eb4725] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO [e9d6e4c4] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:39:01 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [138330e8] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:47:24 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [42264ba5] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [c82bcb80] Finished in 4.312 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [5de43f99] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [ea87fa72] Finished in 0.188 seconds with exit status 0 (successful).
+  INFO [a2c177f7] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:48:15 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [ea45a4ac] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+  INFO [3904622f] Finished in 8.380 seconds with exit status 0 (successful).
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [64f143c6] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+  INFO [37811ac7] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO [33c22bc8] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:48:51 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [4a564168] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+ DEBUG [4a564168] Command: ( export WP_ENV="production" ; /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir )
+  INFO [cc8367ba] Finished in 3.630 seconds with exit status 0 (successful).
+ DEBUG Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 0.0%
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [9d302731] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+ DEBUG [9d302731] Command: ( export WP_ENV="production" ; /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh )
+  INFO [55e76924] Finished in 0.188 seconds with exit status 0 (successful).
+  INFO [08f69837] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+ DEBUG [08f69837] Command: ( export WP_ENV="production" GIT_ASKPASS="/bin/echo" GIT_SSH="/home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh" ; /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD )
+ DEBUG [dec3a3ca] 	Permission denied (publickey).
+ DEBUG [dec3a3ca] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:51:51 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [c0872458] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+ DEBUG [c0872458] Command: ( export WP_ENV="production" ; /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir )
+  INFO [476f9c18] Finished in 3.568 seconds with exit status 0 (successful).
+ DEBUG Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 0.0%
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [378cb4f0] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+ DEBUG [378cb4f0] Command: ( export WP_ENV="production" ; /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh )
+  INFO [7017ecf0] Finished in 0.188 seconds with exit status 0 (successful).
+  INFO [9437e2ca] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+ DEBUG [9437e2ca] Command: ( export WP_ENV="production" GIT_ASKPASS="/bin/echo" GIT_SSH="/home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh" ; /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD )
+ DEBUG [acc34665] 	Permission denied (publickey).
+ DEBUG [acc34665] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 16:55:29 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [e75d94c6] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+ DEBUG [e75d94c6] Command: ( export WP_ENV="production" ; /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir )
+  INFO [83572cda] Finished in 4.272 seconds with exit status 0 (successful).
+ DEBUG Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 0.0%
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [b393b676] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+ DEBUG [b393b676] Command: ( export WP_ENV="production" ; /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh )
+  INFO [b54b1177] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO [efc5b5a5] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+ DEBUG [efc5b5a5] Command: ( export WP_ENV="production" GIT_ASKPASS="/bin/echo" GIT_SSH="/home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh" ; /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD )
+ DEBUG [9f9e1a4b] 	Permission denied (publickey).
+ DEBUG [9f9e1a4b] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 17:01:06 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [cbd23956] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+ DEBUG [cbd23956] Command: ( export WP_ENV="production" ; /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir )
+  INFO [8eaa0844] Finished in 3.293 seconds with exit status 0 (successful).
+ DEBUG Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 0.0%
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [d081f247] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+ DEBUG [d081f247] Command: ( export WP_ENV="production" ; /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh )
+  INFO [a52bc0a7] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [4a9acbd5] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+ DEBUG [4a9acbd5] Command: ( export WP_ENV="production" GIT_ASKPASS="/bin/echo" GIT_SSH="/home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh" ; /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD )
+ DEBUG [49f12138] 	Permission denied (publickey).
+ DEBUG [49f12138] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 17:08:44 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [f5fe5219] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+ DEBUG [f5fe5219] Command: ( export WP_ENV="production" ; /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir )
+  INFO [cb236c5b] Finished in 3.778 seconds with exit status 0 (successful).
+ DEBUG Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 0.0%
+  INFO Uploading /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh 100.0%
+  INFO [3e6a11c3] Running /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh as s1awek@hide-space.com
+ DEBUG [3e6a11c3] Command: ( export WP_ENV="production" ; /usr/bin/env chmod 700 /home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh )
+  INFO [0ac4f563] Finished in 0.185 seconds with exit status 0 (successful).
+  INFO [397a88a6] Running /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD as s1awek@hide-space.com
+ DEBUG [397a88a6] Command: ( export WP_ENV="production" GIT_ASKPASS="/bin/echo" GIT_SSH="/home/s1awek/domains/hide-space.com/public_html/temp_dir/git-ssh-hide-space.com-production-slawo.sh" ; /usr/bin/env git ls-remote git@github.com:s1awek/hide-space-wordpress.git HEAD )
+ DEBUG [593d9dee] 	Permission denied (publickey).
+ DEBUG [593d9dee] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-03-08 17:11:34 +0100 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [7020eaf0] Running /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir as s1awek@hide-space.com
+ DEBUG [7020eaf0] Command: ( export WP_ENV="production" ; /usr/bin/env mkdir -p /home/s1awek/domains/hide-space.com/public_html/temp_dir )
